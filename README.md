@@ -1,0 +1,1 @@
+In this project i am going to be deconstructing the google homepage and then rebuilding it with HTML and CSS. On the browser I will be using integrated developer tools such as the inspect element to see everything that is being done to the page.
