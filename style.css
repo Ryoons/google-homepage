@@ -69,12 +69,23 @@ input {
     width: auto;
     max-width: 584px;
     min-width: 450px;
-    padding-left: 20px;
+    padding-left: 45px;
     padding-right: 20px;
+    display: flex;
 }
-
-
-
+input:hover, input:focus {
+    background-color: #fff;
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+    border-color: rgba(223, 225, 229, 0);
+    outline: none;
+}
+.searchicon {
+    max-width: 25px;
+    max-height: 25px;
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
 
 
 
