@@ -6,7 +6,7 @@
 }
 a {
     text-decoration: none;
-    color: black;
+    color: inherit;
 }
 a:hover {
     text-decoration: underline;
@@ -14,6 +14,7 @@ a:hover {
 body, input, button {
     font-size: 14px;
     font-family: arial, sans-serif;
+    color: black;
 }
 body {
     display: flex;
@@ -28,7 +29,7 @@ ul {
 li {
     display: inline;
     padding: 5px;
-    
+
 }
 .navright {
     float:right;
@@ -41,6 +42,9 @@ li {
 }
 #french {
     color: blue;
+    flex-grow: 1;
+    flex-shrink: 0;
+    box-sizing: border-box;
 }
 
 .buttons {
@@ -86,11 +90,41 @@ input:hover, input:focus {
     align-items: center;
     flex: 1;
 }
-
-
-
-
-
+footer {
+    color: rgba(0, 0, 0, .54);
+    background-color: #f2f2f2;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+.footer-can {
+    font-size: 15px;
+    padding: 15px 15px;
+    border-bottom: 1px solid #dadce0;
+    position: relative;
+    
+}
+.footer-bottom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.footer-left {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.footer-right {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-right: 15px;
+}
+.footer-content {
+    display: block;
+    padding: 15px;
+    white-space:nowrap;
+}
 
 
 
